@@ -1,0 +1,16 @@
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        margin: auto;
+    }
+    img{
+        margin: 1%;
+    }
+}
